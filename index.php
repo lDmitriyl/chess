@@ -10,6 +10,6 @@ $king->move(3,2);
 $king->move(2,2);
 
 $queen->move(7,1);
-$queen->move(4,3);
+$queen->move(7,3);
 ?>
 
