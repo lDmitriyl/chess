@@ -71,7 +71,7 @@ class King extends Chessmen
                 }
             }
 
-            if ($this->x < $x || $this->y < $y) {
+            if ($this->x < $x && $this->y < $y) {
 
                 if ($x - $this->x !== 1 || $y - $this->y !== 1) {
                     throw new Exception('Король не может так ходить, учите правила шахмат');
